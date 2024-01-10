@@ -24,3 +24,19 @@ The dataset is explored using df.head(), df.columns, and df.describe() to unders
 ### Model Building
 The logistic regression model is built and trained using the training dataset.
 
+### Evaluating Results
+- Confusion Matrix: Visualizes the model's performance through a confusion matrix.
+- Other Scores: Calculates accuracy, precision, recall, and F1-score to evaluate the model's performance.
+
+### Improving the Model
+- K-Fold Cross-Validation: Utilizes cross-validation to improve model robustness.
+- Feature Selection: Uses RFE (Recursive Feature Elimination) to select the most significant features for model training.
+
+### Finalizing the Model
+1. Rebuilds the model with the selected features and re-evaluates its performance.
+2. Provides insight into the most impactful features for the model.
+
+## Results
+A DataFrame ('final') containing the actual churn, predicted churn, and user information is presented for further analysis or utilization.
+
+The notebook demonstrates steps to handle data, preprocess, build, evaluate, and optimize a machine learning model to predict and minimize churn in a subscription-based service.
