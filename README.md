@@ -14,6 +14,9 @@ By subscribing, customers have provided data on their fijnances, and also some d
 
 Financial data can be unreliable and delayed. Therefore, we will use only the demographic data that is built by companies.
 
+### Data Source
+The dataset used for this churn analysis project contains information about various customers, including features such as customer demographics, usage patterns, and whether they churned or not.
+
 ## Contents
 ### Importing Libraries and Data
 The notebook begins with importing essential libraries like Pandas, NumPy, Matplotlib, Seaborn, and reads the churn dataset using Pandas.
@@ -78,3 +81,25 @@ A DataFrame ('final') containing the actual churn, predicted churn, and user inf
 
 
 The notebook demonstrates steps to handle data, preprocess, build, evaluate, and optimize a machine learning model to predict and minimize churn in a subscription-based service.
+
+## Usage
+1. Clone the Repository:
+```
+git clone https://github.com/Devansh-Gupta-Official/minimzing-churn-subscription.git
+```
+2. Install Dependencies:
+```
+pip install -r requirements.txt
+```
+
+3. Prepare the Dataset:
+
+Download the dataset from my repository.
+
+Place the dataset in the project's root directory.
+
+4. Run the Jupyter Notebook:
+
+Open and run the Jupyter Notebook minimizing_churn.ipynb.
+
+Follow the step-by-step guide to preprocess data, build the model, and evaluate results.
