@@ -37,9 +37,12 @@ The dataset is explored using df.head(), df.columns, and df.describe() to unders
 
 ### Model Building
 The logistic regression model is built and trained using the training dataset.
+- The logistic regression model is employed for predicting churn. In this step, the model is trained using the training dataset. The LogisticRegression class from the sklearn.linear_model module is utilized, and the training data (X_train and y_train) is passed to the fit method.
+- The random_state parameter is set for reproducibility. This ensures that the same initial random state is used in each run for consistent results.
+- Once the model is trained, predictions are made on the test dataset (X_test). The predict method is used to obtain the predicted churn values.
 
 ### Evaluating Results
-- Confusion Matrix: Visualizes the model's performance through a confusion matrix.
+- Confusion Matrix: A confusion matrix is generated to visualize the model's performance. The confusion_matrix function from sklearn.metrics is employed for this purpose. The resulting confusion matrix is displayed using Seaborn's heatmap.
 
 ![image](https://github.com/Devansh-Gupta-Official/minimizing-churn-subscription/assets/100591612/5f696f4b-e6b7-47a3-8490-0342dfe90f9f)
 
