@@ -2,7 +2,17 @@
 This repository contains code and insights on minimizing churn in a subscription-based service. The analysis is performed using a Jupyter Notebook.
 
 ## Objective
-The primary objective is to predict and minimize the churn rate by analyzing various features and employing machine learning models.
+The primary objective is to predict and minimize the churn rate by analyzing various features and employing machine learning models. Subscription products are the main source of revenue for companies across all industries. To retain their customers, these cmpanies need to identify behavioral patterns that act as catalyst in disengagement with the product.
+
+## Business Challenge
+We will be working for a company that provides a subscription product to its users, which allows them to manage their bank accounts, provides them with personlized coupons, educates them on the best available method to save money, etc.
+
+**We are in charge of identifying users who are likely to cancel their subsciption so that we can start building new features that they may be interested in. These features can increase the engagement and interest of our users towards the product.**
+
+## Data
+By subscribing, customers have provided data on their fijnances, and also some demographic information that was acquired during the sign-up process.
+
+Financial data can be unreliable and delayed. Therefore, we will use only the demographic data that is built by companies.
 
 ## Contents
 ### Importing Libraries and Data
