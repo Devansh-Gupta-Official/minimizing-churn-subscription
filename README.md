@@ -13,8 +13,22 @@ The dataset is explored using df.head(), df.columns, and df.describe() to unders
 
 ### Visualizing the Data
 1. Histograms: Visualizes the distribution of numerical columns in the dataset.
-2. Pie Charts: Illustrates the distribution of binary columns to assess skewness.
-3. Correlation Plot and Matrix: Evaluates correlation among features using heatmap and correlation values.
+
+![image](https://github.com/Devansh-Gupta-Official/minimizing-churn-subscription/assets/100591612/24359a24-191e-4520-a0a3-4110bdcfd367)
+
+
+3. Pie Charts: Illustrates the distribution of binary columns to assess skewness.
+
+![image](https://github.com/Devansh-Gupta-Official/minimizing-churn-subscription/assets/100591612/d5a906b4-519b-4186-883a-cdaa6c565ff3)
+
+
+5. Correlation Plot and Matrix: Evaluates correlation among features using heatmap and correlation values.
+
+![image](https://github.com/Devansh-Gupta-Official/minimizing-churn-subscription/assets/100591612/c2cb64ec-f666-4876-8c57-d1ba4494eee2)
+
+![image](https://github.com/Devansh-Gupta-Official/minimizing-churn-subscription/assets/100591612/10a59c72-9271-4680-b647-055d58bc9f82)
+
+
 
 ### Data Preprocessing
 1. One-Hot Encoding: Converts categorical variables into numerical format, avoiding the dummy variable trap.
@@ -26,6 +40,10 @@ The logistic regression model is built and trained using the training dataset.
 
 ### Evaluating Results
 - Confusion Matrix: Visualizes the model's performance through a confusion matrix.
+
+![image](https://github.com/Devansh-Gupta-Official/minimizing-churn-subscription/assets/100591612/5f696f4b-e6b7-47a3-8490-0342dfe90f9f)
+
+
 - Other Scores: Calculates accuracy, precision, recall, and F1-score to evaluate the model's performance.
 
 ### Improving the Model
@@ -34,9 +52,16 @@ The logistic regression model is built and trained using the training dataset.
 
 ### Finalizing the Model
 1. Rebuilds the model with the selected features and re-evaluates its performance.
-2. Provides insight into the most impactful features for the model.
+
+![image](https://github.com/Devansh-Gupta-Official/minimizing-churn-subscription/assets/100591612/5ae083c4-2e57-4ce6-bdd2-f80218a9f323)
+
+
+3. Provides insight into the most impactful features for the model.
 
 ## Results
 A DataFrame ('final') containing the actual churn, predicted churn, and user information is presented for further analysis or utilization.
+
+![image](https://github.com/Devansh-Gupta-Official/minimizing-churn-subscription/assets/100591612/6f47e523-ed19-4522-ab5d-b0ba57004581)
+
 
 The notebook demonstrates steps to handle data, preprocess, build, evaluate, and optimize a machine learning model to predict and minimize churn in a subscription-based service.
