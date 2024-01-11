@@ -93,13 +93,12 @@ pip install -r requirements.txt
 ```
 
 3. Prepare the Dataset:
+- Download the dataset from my repository.
 
-Download the dataset from my repository.
-
-Place the dataset in the project's root directory.
+- Place the dataset in the project's root directory.
 
 4. Run the Jupyter Notebook:
 
-Open and run the Jupyter Notebook minimizing_churn.ipynb.
+- Open and run the Jupyter Notebook minimizing_churn.ipynb.
 
-Follow the step-by-step guide to preprocess data, build the model, and evaluate results.
+- Follow the step-by-step guide to preprocess data, build the model, and evaluate results.
